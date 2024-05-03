@@ -9,6 +9,8 @@ This document uses terminology version 4.3 as much as possible. Use the v4.3 ter
 ## Setup
 As this is a Python project, I recommend using a virtual environment, this guide assumes you are familiar with this process. The directory name `.venv` is added to the `.gitignore` file for this purpose.
 
+Before continuing, make sure that you have MakeTools (the `make` command) and g++ installed. If you don't already have this, this can be installed with `sudo apt install build-essential`.
+
 To build and install all dependencies (Python libaries and others), run `./install.sh`. This first installs the Python libraries, then builds HGS-VRPTW, the baseline solver.
 
 Note: to make it easy on yourself, don't try this on Windows. For Windows users, I recommend installing WSL: feel free to ask me (Teun) for help with that.
