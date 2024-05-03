@@ -11,6 +11,8 @@ As this is a Python project, I recommend using a virtual environment, this guide
 
 To build and install all dependencies (Python libaries and others), run `./install.sh`. This first installs the Python libraries, then builds HGS-VRPTW, the baseline solver.
 
+Note: to make it easy on yourself, don't try this on Windows. For Windows users, I recommend installing WSL: feel free to ask me (Teun) for help with that.
+
 ## Commands
 ### Verifier for Solver (Static Problem)
 A Solver is an algorithmic code submission. A Verifier is able to verify the correctness of a Solver for a Static Problem.
